@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Outline White",
+  "slug": "outline-white",
+  "blockTypes": ["core/button"],
+  "styles": {
+    "color": {
+      "background": "rgba(255,255,255,0.15)",
+      "text": "var:preset|color|base"
+    },
+    "border": {
+	  "radius": "var:preset|border-radius|full",
+      "width": "1px",
+      "style": "solid",
+	  "color": "rgba(255,255,255,0.50)"
+    },
+    "css": "&{transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease;} &:hover{background:rgba(255,255,255,0.30);color:var(--wp--preset--color--base);border-color:rgba(255,255,255,0.60);}"
+  }
+}

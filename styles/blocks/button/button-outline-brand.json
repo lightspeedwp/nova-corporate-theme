@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Outline Brand",
+	"slug": "outline-brand",
+	"blockTypes": ["core/button"],
+	"styles": {
+		"color": {
+			"background": "var:preset|color|base",
+			"text": "var:preset|color|primary"
+			},
+		"border": {
+			"radius": "var:preset|border-radius|full",
+			"width": "1px",
+			"style": "solid",
+			"color": "var:preset|color|primary"
+		},
+		"css": "&{transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease;} &:hover{background:var(--wp--preset--color--primary);color:var(--wp--preset--color--base);border-color:var(--wp--preset--color--primary);}"
+	}
+}

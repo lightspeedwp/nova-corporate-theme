@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Rate Card",
+	"slug": "rate-card",
+	"blockTypes": ["core/button"],
+	"styles": {
+		"color": {
+			"background": "var:preset|color|primary",
+			"text": "var:preset|color|base"
+		},
+		"border": {
+			"radius": "var:preset|border-radius|full",
+			"width": "0"
+		},		
+		"css": "&{transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease;} &:hover{background:var(--wp--preset--color--main);color:var(--wp--preset--color--base);}"
+	}
+}
