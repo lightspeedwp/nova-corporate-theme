@@ -261,5 +261,5 @@ Video Border radius fix
 */
 
 .wp-block-video video {
-	border-radius: 100px;
+	border-radius: var(--wp--preset--border-radius--xs);
 }
