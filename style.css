@@ -254,3 +254,12 @@ body:not(.wp-admin) header:has(>.is-position-sticky) {
 .wp-block-table tfoot td {
 	border-bottom: none;
 }
+
+
+/*
+Video Border radius fix
+*/
+
+.wp-block-video video {
+	border-radius: 100px;
+}
